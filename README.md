@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![](http://i.imgur.com/CqXcsZ9.png)
 
 This is a base template for Angular 2. It contains the core files you will need when starting an Angular 2 project.
@@ -46,3 +47,6 @@ Now you can start the TypeScript compiler in watch mode and run lite-server with
 - [Google+](https://plus.google.com/+BuckyRoberts)
 - [reddit](https://www.reddit.com/r/thenewboston/)
 - [Donate](https://www.patreon.com/thenewboston)
+=======
+# upet_angular2
+>>>>>>> 35a0fe92e754d021a68ba77bdee2bef01329d955
