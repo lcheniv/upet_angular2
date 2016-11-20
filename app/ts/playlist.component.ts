@@ -1,10 +1,13 @@
 import {Component} from 'angular2/core';
 
 @Component({
-    selector: 'playlist', 
-    templateUrl: 'app/ts/playlist.component.html' // HTML file that represents HTML we want to use for the template
+
+    selector: 'playlist',                          // <playlist> tag
+    templateUrl: 'app/ts/playlist.component.html', // HTML file that represents HTML we want to use for the template
+    inputs: ['videos']                             // We have incoming data that needs to be handled by specifiyng its inputs - info coming in
+    
 })
 
 export class PlaylistComponent {
-    
+
 }

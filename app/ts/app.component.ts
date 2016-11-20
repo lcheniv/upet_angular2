@@ -18,7 +18,7 @@ export class AppComponent {
     // Array of videos
     videos: Array<Video>;
 
-
+    // Need to send these videos to html page through the playlist component which is done through attribute binding 
     constructor(){
         this.videos = [
             new Video(1, "Django", "f8qBeaGe2S4", "This video is really really cool"),
