@@ -4,9 +4,9 @@ import {Video} from './video';
 import {PlaylistComponent} from './playlist.component';
 
 @Component({
-    selector: 'my-app',                       // Basically creating our own tag
+    selector: 'my-app',                            // Basically creating our own tag
     templateUrl: 'app/ts/app.component.html', // Data-binding - to include something from our class in our template which is done by double squigglys {{}}
-    directives: [PlaylistComponent]           // Set up directives - telling Angular we are making custom html
+    directives: [PlaylistComponent]                // Set up directives - telling Angular we are making custom html
 })
 
 
