@@ -1,6 +1,7 @@
 import {Component} from 'angular2/core';
 import {Config} from './config.service';
 import {Video} from './video';
+import {LoginComponent} from './login.component';
 import {PlaylistComponent} from './playlist.component';
 
 @Component({
