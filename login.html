@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>uPet | Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap link reference -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+
+    <!-- CSS link reference -->
+    <link rel="stylesheet" href="css/login_style.css" type="text/css"/>
+
+
+    <!-- Load libraries (Note: IE required polyfills, in this exact order_ -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+
+    <!-- Configure SystemJS -->
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('app/js/main').then(null, console.error.bind(console));
+    </script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--<my-app>Loading . . .</my-app>-->
+
+    <div id="login-form">
+    <form method="post" autocomplete="off">
+    
+     <div class="col-md-12">
+    
+         <div class="form-group">
+         </div>
+
+    <div class="form-group">
+        
+        <div id ="space_top">
+
+            <div class="form-group">
+                <h2 class=""><span id="space">Sign In</span></h2>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                <input type="email" name="userEmail" class="form-control" placeholder="Your Email" required />
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                    <input type="password" name="userPassword" class="form-control" placeholder="Your Password" required />
+                </div>
+            </div>
+            
+            <div class="form-group">
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="btn btn-block btn-primary" name="btn-login">Sign In</button>
+            </div>
+            
+            <div class="form-group">
+            </div>
+            
+            <div class="form-group">
+                <span id="create_account"><a href="register.html">Create an account</a><span>
+            </div>
+        
+        </div>
+        </div>
+   
+    </form>
+    </div> 
+
+    </div>
+</body>
+</html>
