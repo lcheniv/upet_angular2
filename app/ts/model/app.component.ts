@@ -3,11 +3,12 @@ import {Config} from './config.service';
 import {Video} from './video';
 import {LoginComponent} from './login.component';
 import {PlaylistComponent} from './playlist.component';
+import {SearchComponent} from './search.component';
 
 @Component({
     selector: 'my-app',                            // Basically creating our own tag
     templateUrl: 'app/ts/view/app.component.html',      // Data-binding - to include something from our class in our template which is done by double squigglys {{}}
-    directives: [PlaylistComponent]                // Set up directives - telling Angular we are making custom html
+    directives: [PlaylistComponent, SearchComponent]               // Set up directives - telling Angular we are making custom html
 })
 
 

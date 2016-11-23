@@ -7,7 +7,7 @@ import {Config} from './config.service';
 })
 
 
-export class AppComponent {
+export class LoginComponent {
     
     // Can create variables inside this class
     loginHeading = Config.LOGIN_HEADING; // Called from config class which contains a static string variable written in TypeScript
