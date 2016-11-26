@@ -1,18 +1,21 @@
 body {
 
-    background-image: url("login_bg.jpg");
+    /*background-image: url("login_bg.jpg");*/
+    background: #white;
     background-size: 100%;
     background-repeat: no-repeat;
 
 }
 
 .form-group {
-
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
     font-family: sans-serif;
     margin-top: 1%;
+}
+
+.form-container {
 
 }
 
@@ -43,6 +46,11 @@ a {
 
 .form-group button {
     color: white;
+    background: #011627;
+}
+
+.form-group button:hover {
+    color: white;
     background: #2EC4B6;
 }
 
@@ -60,8 +68,8 @@ a {
 }
 
 #create_account a:link, #create_account a:visited {
-    color: black;
-    border: 3px solid black;
+    color: white;
+    border: 3px solid white;
     font-size: 12px;
     padding: 5px 9px;
     text-align: center;
@@ -72,6 +80,6 @@ a {
 #create_account a:hover, #create_account a:active {
     background-color: white;
     color:black;
-    padding: 10px 14px;
+    padding: 5px 9px;
     font-weight: bold;
 }

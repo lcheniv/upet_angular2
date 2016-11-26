@@ -5,7 +5,7 @@ import {Keywords} from './keywords';
 
 @Component({
     selector: 'search',                            // Basically creating our own tag
-    templateUrl: 'app/ts/view/search.component.html',      // Data-binding - to include something from our class in our template which is done by double squigglys {{}}
+    templateUrl: 'app/ts/view/search.component.html'      // Data-binding - to include something from our class in our template which is done by double squigglys {{}}
 })
 
 
