@@ -17,9 +17,6 @@ body{
 }
 
 #fg-password-area {
-    background-image: url('images/dog-running.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
     background: #011627;
     height: 350px;
     padding-top: 10px;
@@ -96,6 +93,21 @@ header {
     color: black;
     font-weight: bold;  
     margin-top: 10px;
+}
+
+/*#image-area {
+    background-image: url("images/backyard.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 500px;
+}*/
+
+#bottom-bar {
+    margin-top: 300px;
+    width: auto;
+    height: 180px;
+    background: #FF9F1C;
 }
 
 

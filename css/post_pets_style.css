@@ -1,6 +1,5 @@
 
 body{ 
-    background-image: url("images/dog-running.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0px;
@@ -60,26 +59,16 @@ header {
 }
 
 #post-container {
-    background-image: url("images/dog-running.jpg");
     /*background: #E71D36;*/
     height: 1200px;
+    margin-left: 30%;
+    margin-right: 35%;
 }
 
-#information-area-left {
-    margin-left: 20px;
-    float: left;
+#post-container h3 {
+    font-weight: bold;
 }
 
-#information-area-right {
-    float: right;
-    margin-right: 75%;
-}
-
-#information-area-middle {
-    float: right;
-    margin-right: 30%;
-    clear: both;
-}
 
 
 
