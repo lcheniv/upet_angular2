@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>uPet | Payment</title>
+  <link rel="stylesheet" href="styles/checkout.css">
+  <link rel="stylesheet" href="styles/layout.css">
+</head>
+
+<body>
+  <div class="bgded overlay" style="background-image:url('images/autumn-walk.jpg');">
+
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <div id ="logo" class = "fl_left">
+        <h1><a href="index.html"><img class="logo" src="images/logo.png"></a></h1>
+      </div>
+      
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="login.html">Log In</a>
+          <li class="active"><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <div class='container'>
+    <form class='modal'>
+      <header class='header'>
+        <h1>Payment of $145.00</h1>
+        <div class='card-type'>
+          <a class='card active' href='#'><img src='images/Amex.png'></a>
+          <a class='card' href='#'><img src='images/Discover.png'></a>
+          <a class='card' href='#'><img src='images/Visa.png'></a>
+          <a class='card' href='#'><img src='images/MC.png'></a>
+        </div>
+      </header>
+      <div class='content'>
+        <div class='form'>
+          <div class='form-row'>
+            <div class='input-group'>
+              <label for=''>Name on card</label>
+              <input placeholder='' type='text'>
+            </div>
+          </div>
+          <div class='form-row'>
+            <div class='input-group'>
+              <label for=''>Card Number</label>
+              <input maxlength='16' placeholder='' type='number'>
+            </div>
+          </div>
+          <div class='form-row'>
+            <div class='input-group'>
+              <label for=''>Expiry Date</label>
+              <input placeholder='' type='month'>
+            </div>
+            <div class='input-group'>
+              <label for=''>CVS</label>
+              <input maxlenght='4' placeholder='' type='number'>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class='footer'>
+        <button class='button'>Complete Payment</button>
+      </footer>
+    </form>
+  </div>
+  <script src="scripts/jquery.checkout.js"></script>
+  <script src="scripts/checkout.js"></script>
+</body>
+</html>
