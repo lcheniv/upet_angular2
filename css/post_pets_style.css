@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
+    height: 1300px;
 }
 
 .logo {
@@ -59,14 +60,67 @@ header {
 }
 
 #post-container {
-    /*background: #E71D36;*/
-    height: 1200px;
-    margin-left: 30%;
+    background: #333333;
+    padding: 40px 90px 20px 90px;
+    height: 1300px;
+    margin-left: 28%;
     margin-right: 35%;
+    color: white;
 }
 
-#post-container h3 {
-    font-weight: bold;
+#post-container p {
+    text-align: center;
+}
+
+#custom-submit {
+    color: black;
+    background: white;
+    text-align: center;
+}
+
+.dropdown-check-list {
+  display: inline-block;
+}
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  border: 1px solid #ccc;
+}
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.dropdown-check-list .anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.dropdown-check-list ul.items li {
+  list-style: none;
+}
+.dropdown-check-list.visible .anchor {
+  color: #0094ff;
+}
+.dropdown-check-list.visible .items {
+  display: block;
 }
 
 
