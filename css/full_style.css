@@ -1,5 +1,6 @@
 
 /* - - - - - - - Header Style - - - - - - - */
+
 .logo {
 	height: 80px;
 	width: 115px;
@@ -18,7 +19,6 @@ header {
     background: white;
 }
 
-
 #navbar { 
     padding-top: 10px;
     float: right;
@@ -36,9 +36,10 @@ header {
 }
 
 #navbar a:link, #navbar a:visited {
+    /*background-color: white;*/
     color: black;
     border: 2px solid black;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
     padding: 10px 18px;
     text-align: center;
