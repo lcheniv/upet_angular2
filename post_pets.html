@@ -10,40 +10,18 @@
   <link rel="icon" href="favicon.ico"/>
 
   <!-- CSS link reference -->
-  <link rel="stylesheet" type="text/css" href="css/post_pets_style.css">
+  <link rel="stylesheet" type="text/css" href="css/full_style.css">
 
   <!-- Bootstrap link reference -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
 
-  <!-- Load libraries (Note: IE required polyfills, in this exact order_ -->
-    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
-    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
-
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
-
-    <!-- Configure SystemJS -->
-    <script>
-        System.config({
-            packages: {
-                app: {
-                    format: 'register',
-                    defaultExtension: 'js'
-                }
-            }
-        });
-        System.import('app/js/main').then(null, console.error.bind(console));
-    </script>
-
 </head>
 
 <!-- Start of results page layout -->
-<body>
+<body class="pp">
     <div id="top-bar">
         <header>
+
             <div id="logo">
                 <h1><a href="index.html"><img class="logo" src="images/logo.png"></a></h1>
             </div>
@@ -58,10 +36,7 @@
             </div>
 
         </header>
-    
     </div>
-
-    <div>
 
     <div id="post-container">
 
@@ -71,6 +46,7 @@
         <br>
         This may seem long and tedious, but we have opposable thumbs, so let's do them a favor and fill it out for them. </p>
         <hr>
+
         <!--  Post Pet requirements
 
             1. Shelter providing pet

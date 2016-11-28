@@ -28,7 +28,7 @@ header {
     background: white;
 }
 
-#navbar { 
+#navbar {  
     padding-top: 10px;
     float: right;
     margin-right: 10px;
@@ -69,13 +69,13 @@ header {
     margin-top: 70px;
 }
 
-#fg-container h1{
+#fg-container h1 {
     margin-left: auto;
     margin-right: auto;
     color: white;
 }
 
-#fg-container p{
+#fg-container p {
     color: #FF9F1C;
 }
 

@@ -10,34 +10,11 @@
   <link rel="icon" href="favicon.ico"/>
 
   <!-- CSS link reference -->
-  <link rel="stylesheet" type="text/css" href="css/results_style.css">
+  <link rel="stylesheet" type="text/css" href="css/full_style.css">
   <link rel="stylesheet" type="text/css" href="css/flexboxgrid.min.css">
 
   <!-- Bootstrap link reference -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
-
-  <!-- Load libraries (Note: IE required polyfills, in this exact order_ -->
-    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
-    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
-
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
-
-    <!-- Configure SystemJS -->
-    <script>
-        System.config({
-            packages: {
-                app: {
-                    format: 'register',
-                    defaultExtension: 'js'
-                }
-            }
-        });
-        System.import('app/js/main').then(null, console.error.bind(console));
-    </script>
 
 </head>
 
@@ -45,10 +22,13 @@
 <body>
     <div id="top-bar">
         <header>
+
+            <!-- uPet logo on far left of nav bar -->
             <div class="logo">
                 <h1><a href="index.html"><img class="logo" src="images/logo.png"></a></h1>
             </div>
 
+            <!-- Table for LOGIN and SIGN-UP button -->    
             <div id="navbar">
             <table>
                  <tr>
@@ -61,27 +41,20 @@
         </header>
     </div>
 
+    <!-- Container below nav bar - Search Container -->
     <div id="search-component-area">
         <div id="search-container">
             <h1>Describe your idea of a perfect pet</h1>
             <input type="text" name="search" placeholder="ex. small cute energetic puppy">
-            <!-- Will be implemeted w/ Angular2 -->
             <button onclick="myFunction()" class="dropbtn">Search</button> 
         </div>
     </div>
 
-    
+    <!-- Container w/ filtered animal results -->
     <div class="scroll" id="results-container">
-
          <div id="animal-results-container">
 
-             <h1>Find pets the owner they deserve</h1>
-
-             <!--<div class="row">
-                 <div class="col-lg-4">
-                    <div class="box">Test</div>
-                </div>
-             </div>-->
+            <h1>Find pets the owner they deserve</h1>
 
             <table border="0" style="width:100%">
                 <tr>
@@ -95,6 +68,7 @@
                         </div>
                     </div>
                     </td>
+
                     <td>
                     <div class="spacing">
                         <div class="circle"></div>
@@ -105,6 +79,7 @@
                         </div>
                     </div>
                     </td>
+
                     <td>
                     <div class="spacing">
                         <div class="circle"></div>
@@ -115,6 +90,7 @@
                         </div>
                     </div>
                     </td>
+
                     <td>
                     <div class="spacing">
                         <div class="circle"></div>
@@ -138,6 +114,7 @@
                         </div>
                     </div>
                     </td>
+
                     <td>
                     <div class="spacing">
                         <div class="circle"></div>
@@ -148,6 +125,7 @@
                         </div>
                     </div>
                     </td>
+
                     <td>
                     <div class="spacing">
                         <div class="circle"></div>
@@ -158,6 +136,7 @@
                         </div>
                     </div>
                     </td>
+
                     <td>
                     <div class="spacing">
                         <div class="circle"></div>
@@ -175,7 +154,6 @@
 
 
         <div id="filter-container">
-
             <div class="dropdown">    
                 <form action="">
                     
