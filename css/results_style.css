@@ -7,7 +7,7 @@ body{
 .logo {
 	height: 80px;
 	width: 115px;
-    margin-left: 60px;
+    margin-left: 25px;
     float: left;
 }
 
@@ -211,6 +211,12 @@ header {
 
 .pet-info {
     color: black;
+}
+
+#bottom-bar {
+    width: auto;
+    height: 120px;
+    background: #E71D36;
 }
 
 

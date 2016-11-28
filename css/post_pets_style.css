@@ -130,6 +130,12 @@ header {
     font-size: 140%;
 }
 
+#bottom-bar {
+    width: auto;
+    height: 120px;
+    background: #E71D36;
+}
+
 
 
 
