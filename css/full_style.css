@@ -57,9 +57,11 @@ header {
 /* - - - - - - - - Footer Style - - - - - - - */
 
 #bottom-bar {
+    margin: auto;
     width: auto;
     height: 120px;
     background: #E71D36;
+    clear: both;
 }
 
 #bottom-bar h4{
@@ -82,16 +84,22 @@ body .pp{
     margin: 0px;
     padding: 0px;
     height: 1300px;
+    
+}
+
+#sidebars {
+    background-color: #011627;
 }
 
 #post-container {
     background: #333333;
     padding: 40px 90px 20px 90px;
     height: 1300px;
-    margin-left: 28%;
-    margin-right: 28%;
+    width: 800px;
+    margin: auto;
     color: white;
     font-size: 115%;
+    
 }
 
 #post-container p {
@@ -117,11 +125,12 @@ body .pp{
     background-size: 100%;
     height: 350px;
     padding-top: 10px;
+    margin: auto;
 }
 
 #search-container {
     margin-left: 35%;
-    margin-right: 30%;
+    margin-right: 35%;
     margin-top: 100px;
 }
 
@@ -131,15 +140,11 @@ body .pp{
     color: white;
 }
 
-#search-container p{
-    color: #FF9F1C;
-}
-
 #search-container input {
-    margin-top: 20px;
     width: 370px;
     height: 30px;
     font-size: 120%;
+    margin: 20px auto;
 }
 
 #search-container button {
@@ -148,13 +153,16 @@ body .pp{
     background: white;
     color: black;
     font-weight: bold;  
-    margin-top: 10px;
+    margin: 10px auto;
 }
 
 #results-container {
     background-color: white;
     background-size: 100%;
     height: 1200px;
+    margin: auto;
+    float: right;
+    clear: both;
 }
 
 #results-container table {
@@ -169,8 +177,10 @@ body .pp{
     background: #2EC4B6;
     color: white;
     float: left;
+    clear: both;
     width: 290px;
     height: 1200px;
+    margin: auto;
 }
 
 /*#results-container.scroll {
@@ -178,42 +188,43 @@ body .pp{
 }*/
 
 #filter-container .dropdown {
-    margin-left: 20px;
+    margin: auto auto auto 20px;
 }
 
 #animal-results-container {
     float: right;
-    width: 1000px;
-    margin-top: 20px;
-    margin-right: 3%;
-    margin-left: auto;
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 
 #animal-results-container h1 {
     color: black;
     font-weight: bold;
+    margin: 50px auto;
+}
+
+#animals-table{
+    border: none;
+    width: 100%;
 }
 
 .circle {
-	width: 300px;
-	height: 300px;
+	width: 100%;
+	height: auto;
+    margin: auto;
 	background: black;
-	-moz-border-radius: 150px;
-	-webkit-border-radius: 150px;
-	border-radius: 150px;
-    /*margin: 60px 40px 40px 40px;*/
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    position: relative;
+    padding-top: 100%;
 }
 
 .spacing {
     margin-left: 60px;
     margin-top: 60px;
     margin-bottom: 20px;
-
-}
-
-.col-lg-4 {
-    flex-basis: 50%;
-    background: white;
 }
 
 .pet-info h4 {
