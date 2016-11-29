@@ -247,6 +247,24 @@ body .pp{
     color: black;
 }
 
+.dropdown input[type=checkbox] + label {
+  color: white;
+  font-style: italic;
+} 
+
+.dropdown input[type=checkbox]:checked + label {
+  font-size: 130%;
+  padding: 5px;
+  font-style: normal;
+} 
+
+.filter-header{
+    background: #011627;
+    width: 280px;
+    margin: auto;
+    padding: 1px;
+}
+
 /* - - - - - - - - Forgot Password Style - - - - - - - - */
 
 #fg-password-area {
@@ -368,7 +386,6 @@ textarea {
 }
 
 .btn-style{
-	border : solid 0px #ad28ad;
 	border-radius : 3px;
 	moz-border-radius : 3px;
 	font-size : 20px;
