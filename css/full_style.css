@@ -204,6 +204,7 @@ header {
 #animal-results-container h1 {
     color: black;
     font-weight: bold;
+    text-align: center;
     margin: 50px auto;
 }
 
@@ -256,6 +257,7 @@ header {
     padding: 1px;
 }
 
+
 /* - - - - - - - - Forgot Password Style - - - - - - - - */
 
 #fg-password-area {
@@ -296,14 +298,9 @@ header {
     margin-top: 10px;
 }
 
-/*#image-area {
-    background-image: url("images/backyard.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 500px;
-}*/
-
+.full-container {
+    display: flex; 
+}
 
 /* - - - - - - - Input form Styling - - - - - - - */
 
