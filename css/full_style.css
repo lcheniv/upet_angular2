@@ -367,6 +367,17 @@ textarea {
   resize: none;
 }
 
+.btn-style{
+	border : solid 0px #ad28ad;
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	font-size : 20px;
+	color : #000000;
+	padding : 1px 10px;
+	background-color : #ffffff;
+
+}
+
 /*.container span.checkbox::before {
   width: 27px;
   height: 27px;
