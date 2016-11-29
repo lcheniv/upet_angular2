@@ -43,7 +43,6 @@
 
             <span id="custom_bold"<h3>Please provide the pet's information:</h3></span>
             <br><br
-            <p>Setting up the pet's profile<br>
             <br>
             This may seem long and tedious, but we have opposable thumbs, so let's do them a favor and fill it out for them. </p>
             <hr>
@@ -60,33 +59,34 @@
 
             <div id="information-area">
 
-                    Upload images:<br>
+                    <div class="custom-spacing">Upload images:<br></div>
                     <input type="file" name="img" multiple>
                     <!--<input type="file" name="pic" accept="image/*">-->
 
                     <br>
-                    Shelter name:<br>
+                    <div class="custom-spacing">Shelter name:<br></div>
                     <input type="text" name="firstname" value="" size="70" placeholder=" Atlanta Humane Society">
                     <br><br>
 
-                    Pet's name:<br>
+                    <div class="custom-spacing">Pet's name:<br></div>
                     <input type="text" name="lastname" value="" size ="20" placeholder=" Maximus "> 
                     <br><br>
 
-                    Gender:<br>
+                    <div class="custom-spacing">Gender:<br></div>
                     <input type="radio" name="gender" value="male" checked> Male<br>
                     <input type="radio" name="gender" value="female"> Female<br>
                     <br>
 
-                    Age:<br>
-                    <input type="number" name="points" min="0" max="12" step="10" value="30" placeholder="3">
+                    <div class="custom-spacing">Age (in human years):<br></div>
+                    Months  &nbsp<input type="number" name="points" min="0" max="12" step="1" value="0">
+                    Years  &nbsp<input type="number" name="points" min="0" max="20" step="1" value="0">
                     <br><br>
 
-                    Breed:<br>
+                    <div class="custom-spacing">Breed:<br></div>
                     <input type="text" name="lastname" value="" size="30" placeholder=" French Bulldog">
                     <br><br>
 
-                    Size:<br>
+                    <div class="custom-spacing">Size:<br></div>
                     <select>
                         <option value="xtra-small">Xtra-small</option>
                         <option value="small">Small</option>
@@ -96,7 +96,7 @@
                     </select>
                     <br><br>
 
-                    Personality:<br>
+                    <div class="custom-spacing">Personality:<br></div>
                         <input type="checkbox" name="personality" value="playful"> Playful<br>
                         <input type="checkbox" name="personality" value="loving"> Loving<br>
                         <input type="checkbox" name="personality" value="fun"> Fun<br>
@@ -105,7 +105,7 @@
                         <input type="checkbox" name="personality" value="devious"> Devious
                     <br><br>
 
-                    Description:<br>
+                    <div class="custom-spacing">Description:<br></div>
                     <!--<input type="text" name="lastname" value="" size="240" placeholder=" Atlanta Humane Society">-->
                     <textarea name="Text1" cols="70" rows="5"></textarea>
                     <br><br>

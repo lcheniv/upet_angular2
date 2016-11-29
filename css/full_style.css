@@ -88,11 +88,11 @@ body .pp{
 }
 
 #sidebars {
-    background-color: #011627;
+    background-color: #FFFAEB;
 }
 
 #post-container {
-    background: #333333;
+    background: #383838;
     padding: 40px 90px 20px 90px;
     height: 1300px;
     width: 800px;
@@ -116,6 +116,13 @@ body .pp{
     font-weight: bold;
     font-size: 140%;
 }
+
+.custom-spacing {
+    margin-top: 10px;
+    font-size: 110%;
+    font-weight: bold;
+}
+
 
 /* - - - - - - - - Results page style - - - - - - - - */
 
@@ -276,6 +283,7 @@ body .pp{
 }
 
 
+
 /*#image-area {
     background-image: url("images/backyard.jpg");
     background-size: 100%;
@@ -288,9 +296,11 @@ body .pp{
 /* - - - - - - - Input form Styling - - - - - - - */
 
 input[type="text"],
-input[type="search"], {
+input[type="search"],
+input[type="radio"],
+input[type="number"] {
   color: black;
-  padding: 10px;
+  padding: 5px;
   border: solid 1px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
 }
@@ -298,10 +308,54 @@ input[type="search"], {
 input[type="text"]:focus,
 input[type="text"].focus,
 input[type="search"]:focus,
-input[type="search"].focus {
+input[type="search"].focus,
+input[type="radio"]:focus,
+input[type="radio"].focus,
+input[type="number"]:focus,
+input[type="number"].focus {
   color: black;
   border: solid 1px white;
   box-shadow: 0 0 5px 1px #969696;
+}
+
+.custom-spacing select {
+    color: black;
+}
+
+#information-area input {
+  position: relative;
+}
+
+#information-area span::before,
+#information-area span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#information-area span.radio:hover {
+  cursor: pointer;
+}
+#information-arear span.radio::before {
+  left: -52px;
+  width: 45px;
+  height: 25px;
+  background-color: #A8AAC1;
+  border-radius: 50px;
+}
+#information-area span.radio::after {
+  left: -49px;
+  width: 17px;
+  height: 17px;
+  border-radius: 10px;
+  background-color: #6C788A;
+  transition: left .25s, background-color .25s;
+}
+input[type="radio"]:checked + #information-area span.radio::after {
+  left: -27px;
+  background-color: #EBFF43;
 }
 
 /* - - - - - - - Text Area Styling - - - - - - - */
