@@ -463,5 +463,31 @@ input[type="checkbox"]:checked + label span.checkbox::after {
   box-shadow: 0 0 5px 1px #969696;
 }
 
+/* - - - - - - - 403 Page && 404 Page Styling - - - - - - - */
 
+#error {
+    background: #383838;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5% auto;
+}
 
+#error .header {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 400%;
+}
+
+#error img {
+    margin: auto;
+    display: block;
+    height: 30%;
+    width: 30%;
+}
+
+#error .words {
+    text-align: center;
+    color: white;
+    font-size: 175%;
+}
