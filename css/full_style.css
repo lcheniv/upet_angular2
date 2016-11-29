@@ -345,7 +345,7 @@ input[type="number"].focus {
   left: -52px;
   width: 45px;
   height: 25px;
-  background-color: #A8AAC1;
+  background-color: #2EC4B6;
   border-radius: 50px;
 }
 .container span.radio::after {
@@ -356,12 +356,18 @@ input[type="number"].focus {
   background-color: #011627;
   transition: left .25s, background-color .25s;
 }
+
+
 input[type="radio"]:checked + label span.radio::after {
   left: -27px;
-  background-color: #FF9F1C;
+  background-color: #E71D36;
 }
 
-.container span.checkbox::before {
+textarea {
+  resize: none;
+}
+
+/*.container span.checkbox::before {
   width: 27px;
   height: 27px;
   background-color: #fff;
@@ -375,14 +381,37 @@ input[type="radio"]:checked + label span.radio::after {
 }
 .container span.checkbox::after {
   content: '\f00c';
-  font-family: 'FontAwesome';
+  font-family: sans-serif;
   left: -31px;
   top: 2px;
   color: transparent;
   transition: color .2s;
 }
 input[type="checkbox"]:checked + label span.checkbox::after {
-  color: #62AFFF;
+  color: #FF9F1C;
+}*/
+
+#mainselection select {
+   border: 0;
+   color: black;
+   background: transparent;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width: 378px;
+   *width: 350px;
+   *background: #011627;
+   -webkit-appearance: none;
+}
+
+#mainselection {
+   overflow:hidden;
+   width:350px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #011627;
+   background: #2EC4B6 no-repeat scroll 319px center;
 }
 
 /* To hide checkboxes and radioboxes */
