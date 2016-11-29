@@ -1,6 +1,7 @@
 /* Footer style */
 
-#bottom-bar {
+#bottom-bar-fp {
+    margin-top: 20%;
     width: auto;
     height: 120px;
     background: #E71D36;

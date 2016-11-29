@@ -62,6 +62,18 @@ header {
     background: #E71D36;
 }
 
+#bottom-bar h4{
+    text-align: center;
+    color: white;
+}
+
+#bottom-bar img {
+    width: 120px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* - - - - - - - - Post pets style - - - - - - - -*/
 
 body .pp{ 
@@ -76,7 +88,7 @@ body .pp{
     background: #333333;
     padding: 40px 90px 20px 90px;
     height: 1300px;
-    margin-left: 30%;
+    margin-left: 28%;
     margin-right: 28%;
     color: white;
     font-size: 115%;
@@ -95,12 +107,6 @@ body .pp{
 #custom_bold {
     font-weight: bold;
     font-size: 140%;
-}
-
-#bottom-bar {
-    width: auto;
-    height: 120px;
-    background: #E71D36;
 }
 
 /* - - - - - - - - Results page style - - - - - - - - */
@@ -257,12 +263,7 @@ body .pp{
     font-weight: bold;  
     margin-top: 10px;
 }
-#bottom-bar-fp {
-    margin-top: 20%;
-    width: auto;
-    height: 120px;
-    background: #E71D36;
-}
+
 
 /*#image-area {
     background-image: url("images/backyard.jpg");
@@ -271,4 +272,41 @@ body .pp{
     width: auto;
     height: 500px;
 }*/
+
+
+/* - - - - - - - Input form Styling - - - - - - - */
+
+input[type="text"],
+input[type="search"], {
+  color: black;
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus,
+input[type="search"]:focus,
+input[type="search"].focus {
+  color: black;
+  border: solid 1px white;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+/* - - - - - - - Text Area Styling - - - - - - - */
+
+#information-area textarea {
+  color: black;
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+#information-area textarea {
+  color: black;
+  border: solid 1px white;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+
 
