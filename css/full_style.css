@@ -99,7 +99,6 @@ body .pp{
     margin: auto;
     color: white;
     font-size: 115%;
-    
 }
 
 #post-container p {
@@ -109,7 +108,9 @@ body .pp{
 #custom-submit {
     color: black;
     background: white;
-    margin: 0 auto;
+    margin: auto;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 #custom_bold {
@@ -118,9 +119,13 @@ body .pp{
 }
 
 .custom-spacing {
-    margin-top: 10px;
-    font-size: 110%;
+    margin-top: 5px;
+    font-size: 90%;
     font-weight: bold;
+}
+
+#left-spacing {
+    margin-left: 35px;
 }
 
 
@@ -282,8 +287,6 @@ body .pp{
     margin-top: 10px;
 }
 
-
-
 /*#image-area {
     background-image: url("images/backyard.jpg");
     background-size: 100%;
@@ -318,16 +321,16 @@ input[type="number"].focus {
   box-shadow: 0 0 5px 1px #969696;
 }
 
-.custom-spacing select {
+#select-blackfont {
     color: black;
 }
 
-#information-area input {
+.container label {
   position: relative;
 }
 
-#information-area span::before,
-#information-area span::after {
+.container span::before,
+.container span::after {
   content: '';
   position: absolute;
   top: 0;
@@ -335,27 +338,57 @@ input[type="number"].focus {
   margin: auto;
 }
 
-#information-area span.radio:hover {
+.container span.radio:hover {
   cursor: pointer;
 }
-#information-arear span.radio::before {
+.container span.radio::before {
   left: -52px;
   width: 45px;
   height: 25px;
   background-color: #A8AAC1;
   border-radius: 50px;
 }
-#information-area span.radio::after {
+.container span.radio::after {
   left: -49px;
   width: 17px;
-  height: 17px;
+  height: 17px; 
   border-radius: 10px;
-  background-color: #6C788A;
+  background-color: #011627;
   transition: left .25s, background-color .25s;
 }
-input[type="radio"]:checked + #information-area span.radio::after {
+input[type="radio"]:checked + label span.radio::after {
   left: -27px;
-  background-color: #EBFF43;
+  background-color: #FF9F1C;
+}
+
+.container span.checkbox::before {
+  width: 27px;
+  height: 27px;
+  background-color: #fff;
+  left: -35px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  transition: border-color .2s;
+}
+.container span.checkbox:hover::before {
+  border: 3px solid #2EC4B6;
+}
+.container span.checkbox::after {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  left: -31px;
+  top: 2px;
+  color: transparent;
+  transition: color .2s;
+}
+input[type="checkbox"]:checked + label span.checkbox::after {
+  color: #62AFFF;
+}
+
+/* To hide checkboxes and radioboxes */
+.section input[type="radio"],
+.section input[type="checkbox"]{
+  display: none;
 }
 
 /* - - - - - - - Text Area Styling - - - - - - - */
