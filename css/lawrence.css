@@ -1,0 +1,483 @@
+
+/* - - - - - - - Header Style - - - - - - - */
+
+.logo {
+	height: 60px;
+	width: auto;
+	margin-left: 25px;
+	float: left;
+}
+
+#top-bar {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: auto;
+	height: 100px;
+	background: white;
+}
+
+header .greeting {
+	display: inline-block;
+	color: #011627;
+}
+
+#navbar {
+	padding-top: 10px;
+	float: right;
+	margin-right: 10px;
+}
+
+#navbar .buttons {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#navbar .buttons * {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+input[type="submit"] {
+	background: none;
+  	border: none;
+	font-weight: bold;
+}
+
+.button {
+	font-size: 100%;
+	padding: 10px;
+	text-decoration: none;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+
+.button:link, .button:visited, .button {
+	color: black;
+	border: 2px solid black;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 18px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.button.inverse {
+	color: #FFF;
+	border: 2px solid #FFF;
+}
+
+.button.inverse:hover, .button.inverse:active {
+	background-color: #FFF;
+	color: #000;
+}
+
+.button:hover, .button:active {
+	background-color: black;
+	color:white;
+	/*font-size: 100%;*/
+	font-weight: bold;
+}
+
+/* - - - - - - - - Footer Style - - - - - - - */
+
+#bottom-bar {
+	width: auto;
+	height: 120px;
+	background: #FF9F1C;
+	padding-top: 10px
+}
+
+#bottom-bar h4 {
+	text-align: center;
+	color: white;
+}
+
+#bottom-bar img {
+	width: 120px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* - - - - - - - - Post pets style - - - - - - - -*/
+
+#sidebars {
+    background-color: #FFFAEB;
+}
+
+#post-container {
+	background: #333333;
+	padding: 40px 90px 20px 90px;
+	height: 1300px;
+	margin-left: 28%;
+	margin-right: 28%;
+	color: white;
+	font-size: 115%;
+}
+
+#post-container p {
+	text-align: center;
+}
+
+#custom-submit {
+    color: black;
+    background: white;
+    margin: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#custom_bold {
+	font-weight: bold;
+	font-size: 140%;
+}
+
+.custom-spacing {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+#left-spacing {
+    margin-left: 35px;
+}
+
+/* - - - - - - - - Results page style - - - - - - - - */
+
+#search-component-area {
+    background: #FF9F1C;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 350px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+#search-container {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 100px;
+}
+
+#search-container h1{
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#search-container input {
+	margin-top: 20px;
+	width: 370px;
+	height: 30px;
+	font-size: 120%;
+}
+
+#search-container button {
+	padding: 4px 12px;
+	font-size: 14px;
+	background: white;
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#results-container {
+    background-color: white;
+    background-size: 100%;
+    height: 1200px;
+    margin: auto;
+    float: right;
+    clear: both;
+}
+
+#results-container table {
+	margin-left: auto;
+	margin-right: 40px;
+	font-family: sans-serif;
+	color: white;
+	float: right;
+}
+
+#filter-container {
+    background: #2EC4B6;
+    color: white;
+    float: left;
+    clear: both;
+    width: 290px;
+    height: 1200px;
+    margin: auto;
+}
+
+#filter-container .dropdown {
+    margin: auto auto auto 20px;
+}
+
+#animal-results-container {
+    float: right;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#animal-results-container h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px auto;
+}
+
+#animals-table{
+    border: none;
+    width: 100%;
+}
+
+.circle {
+	width: 100%;
+	height: auto;
+    margin: auto;
+	background: black;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    position: relative;
+    padding-top: 100%;
+}
+
+.spacing {
+	margin-left: 60px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.pet-info h4 {
+	font-weight: bold;
+}
+
+.pet-info {
+	color: black;
+}
+
+.dropdown input[type=checkbox] + label {
+  color: white;
+  font-style: italic;
+} 
+
+.dropdown input[type=checkbox]:checked + label {
+  font-size: 130%;
+  padding: 5px;
+  font-style: normal;
+} 
+
+.filter-header {
+    background: #011627;
+    width: 300px;
+    margin: auto auto auto -20px;
+    padding: 1px;
+}
+
+.filter-header h3{
+	margin-left: 20px;
+}
+
+
+
+
+/* - - - - - - - - Forgot Password Style - - - - - - - - */
+
+#fg-password-area {
+	background: #011627;
+	height: 350px;
+	padding-top: 10px;
+}
+
+#fg-container {
+	margin-left: 35%;
+	margin-right: 30%;
+	margin-top: 70px;
+}
+
+#fg-container h1{
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#fg-container p{
+	color: #FF9F1C;
+}
+
+#fg-container input {
+	margin-top: 20px;
+	width: 370px;
+	height: 30px;
+	font-size: 120%;
+}
+
+#fg-container button {
+	padding: 4px 12px;
+	font-size: 14px;
+	background: white;
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.full-container {
+    display: flex; 
+}
+
+
+/input[type="text"],
+input[type="search"],
+input[type="radio"],
+input[type="number"] {
+  color: black;
+  padding: 5px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus,
+input[type="search"]:focus,
+input[type="search"].focus,
+input[type="radio"]:focus,
+input[type="radio"].focus,
+input[type="number"]:focus,
+input[type="number"].focus {
+  color: black;
+  border: solid 1px white;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+#select-blackfont {
+    color: black;
+}
+
+.container label {
+  position: relative;
+}
+
+.container span::before,
+.container span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.container span.radio:hover {
+  cursor: pointer;
+}
+.container span.radio::before {
+  left: -52px;
+  width: 45px;
+  height: 25px;
+  background-color: #2EC4B6;
+  border-radius: 50px;
+}
+.container span.radio::after {
+  left: -49px;
+  width: 17px;
+  height: 17px; 
+  border-radius: 10px;
+  background-color: #011627;
+  transition: left .25s, background-color .25s;
+}
+
+
+input[type="radio"]:checked + label span.radio::after {
+  left: -27px;
+  background-color: #E71D36;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-style{
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	font-size : 20px;
+	color : #000000;
+	padding : 1px 10px;
+	background-color : #ffffff;
+
+}
+
+#mainselection select {
+   border: 0;
+   color: black;
+   background: transparent;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width: 378px;
+   *width: 350px;
+   *background: #011627;
+   -webkit-appearance: none;
+}
+
+#mainselection {
+   overflow:hidden;
+   width:350px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #011627;
+   background: #2EC4B6 no-repeat scroll 319px center;
+}
+
+/* To hide checkboxes and radioboxes */
+.section input[type="radio"],
+.section input[type="checkbox"]{
+  display: none;
+}
+
+/* - - - - - - - Text Area Styling - - - - - - - */
+
+#information-area textarea {
+  color: black;
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+#information-area textarea {
+  color: black;
+  border: solid 1px white;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+/* - - - - - - - 403 Page && 404 Page Styling - - - - - - - */
+
+#error {
+    background: #383838;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5% auto;
+}
+
+#error .header {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 400%;
+}
+
+#error img {
+    margin: auto;
+    display: block;
+    height: 30%;
+    width: 30%;
+}
+
+#error .words {
+    text-align: center;
+    color: white;
+    font-size: 175%;
+}
