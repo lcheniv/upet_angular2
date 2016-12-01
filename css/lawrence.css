@@ -502,7 +502,7 @@ body hr {
 #large_container {
 	width: auto;
 	height: 1600px;
-	background-image: url("images/upet_post_bg.png");
+	background-image: url("images/upet_order_bg.png");
 	font-weight: bold;
 }
 
@@ -739,6 +739,10 @@ textarea {
 
 label:hover:before {
   border: 1px solid #4778d9;
+}
+
+#search-container input[type="search"]{
+	margin-left: 0px;
 }
 
 /* - - - - - - - Text Area Styling - - - - - - - */
