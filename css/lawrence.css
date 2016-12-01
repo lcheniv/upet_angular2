@@ -134,7 +134,7 @@ body hr {
 
 #post-container p {
 	text-align: center;
-	color: white;
+	color: #FF9F1C;
 	font-weight: bold;
 }
 
@@ -174,8 +174,8 @@ body hr {
 }
 
 .checkbox-margin {
-	margin-top: 20px;
-	margin-left: 10%;
+	margin-top: 40px;
+	margin-left: 10px;
 }
 #text-area {
 	margin: auto;
@@ -183,6 +183,17 @@ body hr {
 
 #left-spacing {
     margin-left: 35px;
+}
+
+#white-font {
+	color: white;
+	font-size: 120%;
+	text-align: center;
+}
+
+#text-left {
+	text-align: left;
+	color: #2EC4B6;
 }
 
 /* - - - - - - - - Results page style - - - - - - - - */
@@ -488,9 +499,17 @@ body hr {
 
 .item5 a:hover, .item5 a:active {
     background-color: #FF9F1C;
-    color: black;
+    color: white;
     font-size: 12px;
     font-weight: bold;
+}
+
+.item5 #order-total {
+	font-size: 115%;
+	background: white;
+	color: black;
+	border-radius: 10px 10px;
+	padding: 2px 4px 2px 4px;
 }
 
 #large_container h2 {
