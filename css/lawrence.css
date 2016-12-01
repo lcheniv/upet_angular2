@@ -385,14 +385,13 @@ body hr {
 
 .flex-container-outer {
 	margin: 0 auto; 
-	margin-top: 6%;
+	margin-top: 8%;
 	display: -webkit-flex; /*safari*/
 	-webkit-justify-content: space-between;
 	display: flex;
 	flex-direction: column;
 	-webkit-flex-direction: column;
 	max-width: 900px;
-	height: 200;
 	height: auto;
 	align-items: center;
 	padding: 20px 20px;
@@ -515,7 +514,7 @@ body hr {
 #large_container h2 {
 	font-weight: bold;
 	text-align: center;
-	color: black;
+	color: white;
 	padding-top: 40px;
 	background: #FF9F1C;
 	padding-bottom: 20px;
