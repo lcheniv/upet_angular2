@@ -1,98 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>uPet | Profile</title>
-        <link rel="stylesheet" type="text/css" href="css/layout.css">
-    </head>
+<html>
 
-    <body style="background-color:#FFFFFF; color:#000000;">
+<head>
 
-        <div>
+  <meta charset="UTF-8">
 
-            <div class="wrapper row1">
-                <header id="header" class="hoc clear">
-                    <div id ="logo" class = "fl_left">
-                        <h1><a href="index.html"><img class="logo" src="images/logo.png"></a></h1>
-                    </div>
-                </header>
-            </div>
+  <title>uPet | Pet Profile</title>
+  <link rel="stylesheet" href="styles/style.css" media="screen" type="text/css" />
 
-            <div class="wrapper row4">
-            	<main class="hoc container clear">
-            		<div class="group">
-            			<div class="one_half first"><a href="#"></a><img src="images/pet.gif" style="height:50%; width:50%"></div>
-            			<div class="one_half" style="background-color:#F6F6F6">
-            				<h6 class="heading font-x3">Riceball</h6>
-            				<div style="text-align:center">
-	            				<p>Age: 4 years old</p>
-	            				<p>Sex: Female</p>
-	            				<p>Breed: Golden Retriever</p>
-	            			</div>
-            			</div>
-            		</div>
-            	</main>
-            </div>
+</head>
+
+<body>
+<div id="profile-header">
+  <figure class="profile-banner">
+    <img src="images/cover-photo.jpg" alt="Profile banner" />
+  </figure>
+  <figure>
+    <div class="profile-picture" style="background-image: url('images/petavatar.jpg')"/>
+  </figure>
+  <div class="profile-stats">
+    <p class="profile-name">Riceball</p>
+  </div>
+  
+  <div class="wrapper row3">
+  <main class="container clear">
+    <div class="group">
+      <div class="inline">
+        <div class="profile-text">
+          <p>Age: 28</p>
+          <p>Gender: Male</p>
+          <p>Occupation: IDK</p>
+          <p>Location: Cali</p>
+          <p>Facebook</p>
+          <p>Twitter</p>
+          <p>Email</p>
         </div>
-        <div class="content checkout-box">
-	        <div id="comments">
-	        	<h2>Comments</h2>
-	        	<ul>
-	        		<li>
-	        			<article>
-	        				<header>
-	        					<figure class="avatar"><img src="images/avatar.png"></figure>
-	        					<address>
-	        						By <a href="#">Sara Yeh</a>
-	        					</address>
-	        					<time datetime="2045-04-06T08:15+00:00">Friday, 6 <sup>th</sup> April 2045 @8:15:00</time>
-	        				</header>
-	        				<div class="comcont">
-	        					<p>Oh Em Gee! This dog was so sweet!</p>
-	        				</div>
-	        			</article>
-	        		</li>
-	        		<li>
-	        			<article>
-	        				<header>
-	        					<figure class="avatar"><img src="images/avatar.png"></figure>
-	        					<address>
-	        						By <a href="#">Ahmed Reshit</a>
-	        					</address>
-	        					<time datetime="2045-04-06T08:15+00:00">Friday, 6 <sup>th</sup> April 2045 @8:15:00</time>
-	        				</header>
-	        				<div class="comcont">
-	        					<p>This dog was so rude. It tried to bite my other puppy!</p>
-	        				</div>
-	        			</article>
-	        		</li>
-	        	</ul>
+      </div>
+      <div class="one_half">
+        <p class="biography">This is a short bio about this guy called Luis Ferrer. He's from Venezuela and he's an old man who plays games all day and loves him fam. He doesn't have any pets but probably thinks they're super cute.</p>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </main>
+</div>
 
-	        	<h2>Write A Comment</h2>
-	        	<form action="#" method="post">
-	        		<div class="one_third first">
-	        			<label for="name">Name <span>*</span></label>
-	        			<input type="text" name="name" id="name" value="" size="22" required>
-	        		</div>
-	        		<div class="one_third">
-	        			<label for="email">Mail <span>*</span></label>
-	        			<input type="email" name="email" id="email" value="" size="22" required>
-	        		</div>
-	        		<div class="one_third">
-	        			<label for="url">Website</label>
-	        			<input type="url" name="url" id="url" value="" size="22">
-	        		</div>
-	        		<div class="block clear">
-	        			<label for="comment">Your Comment</label>
-	        			<textarea name="comment" id="comment" cols="25" rows="10"></textarea>
-	        		</div>
-	        		<div>
-	        			<input type="submit" name="submit" value="Submit Form">
-	        			&nbsp;
-	        			<input type="reset" name="reset" value="Reset Form">
-	        		</div>
-	        	</form>
-	        </div>
-		</div>
-    </body>
+
+</div>
+
+</body>
+
 </html>
