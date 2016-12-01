@@ -371,7 +371,7 @@ body hr {
 
 .flex-container-outer {
 	margin: 0 auto; 
-	margin-top: 100px;
+	margin-top: 6%;
 	display: -webkit-flex; /*safari*/
 	-webkit-justify-content: space-between;
 	display: flex;
@@ -501,8 +501,8 @@ body hr {
 
 #large_container {
 	width: auto;
-	height: 1400px;
-	background: #fff4e3;
+	height: 1600px;
+	background-image: url("images/upet_post_bg.png");
 	font-weight: bold;
 }
 
@@ -511,6 +511,13 @@ body hr {
 	text-align: center;
 	font-size: 115%;
 	font-weight: bold;
+	background: #2EC4B6;
+	color: white;
+	padding: 10px 5px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: -60px;
+	border-radius: 10px 10px;
 }
 
 /* - - - - - - - - Input styling - - - - - - - - */
