@@ -132,8 +132,10 @@ body hr {
 	font-size: 115%;
 }
 
-#post-container p, h1 {
+#post-container p {
 	text-align: center;
+	color: white;
+	font-weight: bold;
 }
 
 #post-container h1 {
@@ -172,7 +174,8 @@ body hr {
 }
 
 .checkbox-margin {
-	margin-top: 40px
+	margin-top: 20px;
+	margin-left: 10%;
 }
 #text-area {
 	margin: auto;
@@ -256,7 +259,7 @@ body hr {
     float: right;
     width: 100%;
     height: 100%;
-    margin: auto;
+    margin: 5% auto;
 }
 
 #animal-results-container h1 {
@@ -535,7 +538,6 @@ input[type="file"] {
 }
 
 
-
 input[type="file"] {
   color: white;
   padding: 20px;
@@ -744,6 +746,8 @@ label:hover:before {
 #search-container input[type="search"]{
 	margin-left: 0px;
 }
+
+
 
 /* - - - - - - - Text Area Styling - - - - - - - */
 
