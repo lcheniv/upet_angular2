@@ -40,12 +40,15 @@
 
     <div id="sidebars">
         <div id = "post-container">
-
-            <span id="custom_bold"<h3>Please provide the pet's information:</h3></span>
-            <br><br
+            
+            <h1>Post - A - Pet Form</h1>
             <br>
-            This may seem long and tedious, but we have opposable thumbs, so let's do them a favor and fill it out for them. </p>
+            <span id="custom_bold"<h3>Please provide the pet's information:</h3></span>
+            <br><br>
+            <br>
+            <p>This may seem long and tedious, but we have opposable thumbs, so let's do them a favor and fill it out for them. </p>
             <hr>
+        
 
             <!--  Post Pet requirements
 
@@ -59,31 +62,49 @@
 
             <div id="information-area">
 
-                    <div class="custom-spacing">Upload images:<br></div>
-                    <input type="file" name="img" multiple>
-                    <!--<input type="file" name="pic" accept="image/*">-->
-
+                    <div class="custom-spacing"><span class="number">1</span> Upload images
+                    </div>
                     <br>
-                    <div class="custom-spacing">Shelter name:<br></div>
-                    <input type="text" name="shelter-name" value="" size="70" placeholder=" Atlanta Humane Society">
-                    <br><br>
-                    <div class="custom-spacing">Location:<br></div>
-                    <input type="text" name="" value="" size="70" placeholder=" Atlanta, GA">
-                    <br><br>
+                    <p>Ctrl + Click to select multiple images</p>
+                    <input type="file" name="img" multiple>
                     
+                    <!--<input type="file" name="pic" accept="image/*">-->
+                    
+                    <hr>
+        
+                    <!--                NUMBER ONE                   -->
 
-                    <div class="custom-spacing">Pet's name:<br></div>
+                    <div class="custom-spacing">
+                        <span class="number">2</span> Shelter name<br></div>
+                    
+                    <input type="text" name="shelter-name" value="" size="70" placeholder=" Atlanta Humane Society">
+                    
+                    <hr>          
+                    
+                    <!--                NUMBER THREE                   -->
+
+                    <div class="custom-spacing"><span class="number">3</span> Location<br></div>
+                    <input type="text" name="" value="" size="70" placeholder=" Atlanta, GA">
+
+                    <hr> 
+                    
+                    <!--                NUMBER FOUR                   -->
+
+                    <div class="custom-spacing"><span class="number">4</span> Pet's name<br></div>
                     <input type="text" name="pet-name" value="" size ="20" placeholder=" Maximus "> 
-                    <br><br>
+                    
+                    <hr> 
+                    
+                    <!--                NUMBER FIVE                   -->
 
-                    <div class="custom-spacing">Gender:<br></div>
+                    <div class="custom-spacing"><span class="number">5</span> Gender<br></div>
                     <div id="left-spacing">
                     <section id="first" class="section">
                         <div class="container">
                             <input type="radio" name="group1" id="radio-1">
                             <label for="radio-1"><span class="radio">Male</span></label>
                         </div>
-
+                        
                         <div class="container">
                             <input type="radio" name="group1" id="radio-2">
                             <label for="radio-2"><span class="radio">Female</span></label>
@@ -91,16 +112,25 @@
                     </section>
                     </div>
 
-                    <div class="custom-spacing">Age (in human years):<br></div>
+                    <hr>
+
+                    <!--                NUMBER SIX                   -->
+
+                    <div class="custom-spacing"><span class="number">6</span> Age (in human years)<br></div>
                     Months  &nbsp<input type="number" name="points" min="0" max="12" step="1" value="0">
                     Years  &nbsp<input type="number" name="points" min="0" max="20" step="1" value="0">
-                    <br><br>
+                    
+                    <hr>
+                    
+                    <!--                NUMBER SEVEN                   -->
 
-                    <div class="custom-spacing">Breed:<br></div>
+                    <div class="custom-spacing"><span class="number">7</span> Breed<br></div>
                     <input type="text" name="lastname" value="" size="30" placeholder=" French Bulldog">
-                    <br><br>
+                    <hr>
+                    
+                    <!--                NUMBER EIGHT                   -->
 
-                    <div class="custom-spacing">Size:<br></div>
+                    <div class="custom-spacing"><span class="number">8</span> Size<br></div>
                     <div id="mainselection">
                         <select>
                             <option value="xtra-small">Xtra-small</option>
@@ -110,23 +140,44 @@
                             <option value="xtra-large">Xtra-Large</option>
                         </select>
                         </div>
-                    <br>
 
-                    <div class="custom-spacing">Personality:<br></div>
-                        <input type="checkbox" name="personality" value="playful"> Playful<br>
-                        <input type="checkbox" name="personality" value="loving"> Loving<br>
-                        <input type="checkbox" name="personality" value="fun"> Fun<br>
-                        <input type="checkbox" name="personality" value="chill"> Chill<br>
-                        <input type="checkbox" name="personality" value="quiet"> Quiet<br>
-                        <input type="checkbox" name="personality" value="devious"> Devious<br>
+                    <hr>
+                
+                    <!--                NUMBER NINE                   -->
+                    
+                    <div class="custom-spacing"><span class="number">9</span> Personality<br></div>
+                    <div class="checkbox-margin">
+                         <input type="checkbox" id="check-pp-1" name="personality" value="playful">
+                         <label for="check-pp-1">Playful</label><br>
+                         <input type="checkbox" id="check-pp-2" name="personality" value="loving">
+                         <label for="check-pp-2">Loving</label><br>
+                         <input type="checkbox" id="check-pp-3" name="personality" value="fun">
+                         <label for="check-pp-3">Fun</label><br>
+                         <input type="checkbox" id="check-pp-4" name="personality" value="chill">
+                         <label for="check-pp-4">Chill</label><br>
+                         <input type="checkbox" id="check-pp-5" name="personality" value="quiet">
+                         <label for="check-pp-5">Quiet</label><br>
+                         <input type="checkbox" id="check-pp-6" name="personality" value="devious">
+                         <label for="check-pp-6">Devious</label><br><br>
                         Other: <input type="text" name="other-personality" value="" size="20" placeholder=" Curious">
+                    </div>
                     <br><br>
-                    <div class="custom-spacing">Provide a description about the pet:<br></div>
-                    <textarea name="Text1" cols="70" rows="5"></textarea>
-                    <br><br>
+                    
 
-                    <input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
-                    <br><br><br>
+                    <hr>
+
+                    <!--                NUMBER TEN                  -->
+
+                    <div class="custom-spacing"><span class="number">10</span> Please provide a description about the pet<br></div>
+
+                    <div id="text-area">
+                        <textarea name="Text1" cols="70" rows="5" placeholder="Any additional information about the pet?"></textarea>
+                    </div>
+                    <br><br>
+                    <hr>
+                    <input type="checkbox" id="check-terms" name="terms" value="agree">
+                    <label for="check-terms">I have read and agree to the Terms and Conditions and Privacy Policy</label><br><br><br>
+                    
 
                     <span id="custom-submit"><input type="button" name="btn" class="btn-style" value="submit" /></span>
                     <!--<span id="custom-submit"><input type="submit" value="Submit"></span>-->

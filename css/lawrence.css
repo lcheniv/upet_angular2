@@ -106,21 +106,45 @@ input[type="submit"] {
 /* - - - - - - - - Post pets style - - - - - - - -*/
 
 #sidebars {
-    background-color: #FFFAEB;
+    background-color: #fff4e3;
+	/*background-image: url("images/upet_post_bg.png");
+	background-repeat: no-repeat;*/
+}
+
+body hr { 
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 2px;
+	background: white;
 }
 
 #post-container {
-	background: #333333;
+	background: #242424;
 	padding: 40px 90px 20px 90px;
-	height: 1300px;
+	height: auto;
+	width: auto;
 	margin-left: 28%;
 	margin-right: 28%;
 	color: white;
 	font-size: 115%;
 }
 
-#post-container p {
+#post-container p, h1 {
 	text-align: center;
+}
+
+#post-container h1 {
+	text-align: center;
+	font-weight: bold;
+	margin-top: -20px;
+	padding: 30px;
+}
+#post-container textarea {
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
 #custom-submit {
@@ -137,8 +161,17 @@ input[type="submit"] {
 }
 
 .custom-spacing {
-    font-size: 90%;
+    font-size: 150%;
     font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.checkbox-margin {
+	margin-top: 40px
+}
+#text-area {
+	margin: auto;
 }
 
 #left-spacing {
@@ -202,12 +235,12 @@ input[type="submit"] {
 }
 
 #filter-container {
-    background: #2EC4B6;
+    background: #333333; /* 2EC4B6 */
     color: white;
     float: left;
     clear: both;
     width: 290px;
-    height: 1200px;
+    height: 1400px;
     margin: auto;
 }
 
@@ -226,7 +259,7 @@ input[type="submit"] {
     color: black;
     font-weight: bold;
     text-align: center;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 #animals-table{
@@ -267,12 +300,11 @@ input[type="submit"] {
 
 .dropdown input[type=checkbox]:checked + label {
   font-size: 130%;
-  padding: 5px;
   font-style: normal;
 } 
 
 .filter-header {
-    background: #011627;
+    background: #2EC4B6;
     width: 300px;
     margin: auto auto auto -20px;
     padding: 1px;
@@ -281,9 +313,6 @@ input[type="submit"] {
 .filter-header h3{
 	margin-left: 20px;
 }
-
-
-
 
 /* - - - - - - - - Forgot Password Style - - - - - - - - */
 
@@ -295,7 +324,7 @@ input[type="submit"] {
 
 #fg-container {
 	margin-left: 35%;
-	margin-right: 30%;
+	margin-right: 35%;
 	margin-top: 70px;
 }
 
@@ -303,10 +332,13 @@ input[type="submit"] {
 	margin-left: auto;
 	margin-right: auto;
 	color: white;
+	margin-left: 40px;
+	
 }
 
 #fg-container p{
 	color: #FF9F1C;
+	margin-left: 40px;
 }
 
 #fg-container input {
@@ -323,21 +355,162 @@ input[type="submit"] {
 	color: black;
 	font-weight: bold;
 	margin-top: 10px;
+	margin-left: 40px;
 }
 
 .full-container {
     display: flex; 
 }
 
+/* - - - - - - - - MyOrder Page Styling - - - - - - - */
 
-/input[type="text"],
+.order-header h1{
+	font-weight: bold;
+	color: white;
+}
+
+body {
+	
+	height: 1000px;
+	width: auto;
+	background: #333333;
+
+}
+
+.flex-container-outer {
+	margin: 0 auto; 
+	margin-top: 40px;
+	display: -webkit-flex; /*safari*/
+	-webkit-justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	background-color: white;
+	max-width: 700px;
+	align-items: center;
+	padding: 20px 20px;
+	border-radius: 10px;
+}
+
+.flex-container-inner {
+	width: 100%;
+	height: 120px;
+	padding: 16px;
+	border-radius: 16px;
+	margin-bottom: 20px;
+	display: -webkit-flex; /*safari*/
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.flex-item {
+	width: 60px;
+	padding: 4px;
+	background-color: white;
+	flex: 1 100%;
+}
+
+.item1 {
+	height: 20px;
+	padding: 2px;
+	background-color: white;
+	border-bottom: solid 1px black;
+}
+
+.item2 {
+	-webkit-align-self: flex-end;
+    align-self: flex-end;
+	flex: 1 6 20%;
+}
+
+.item5 {
+	flex: 2 100%;
+}
+
+.right_side {
+	float: right;
+	clear: both;
+}
+
+.item5 a {
+	margin-left: 290px;
+    font-size: 100%;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.item5 a:link, .item5 a:visited {
+    color: black;
+    border: 3px solid black;
+	background-color: white;
+    font-size: 12px;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.item5 a:hover, .item5 a:active {
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.order_info h3 {
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.order_info h4 {
+	color: white;
+	font-family: sans-serif;
+	margin-left: 20px;
+}
+
+.order_info #smaller_h4 {
+	font-size: 85%;
+}
+
+.order_info {
+	margin: 0 auto; 
+	margin-top: 100px;
+	background-color: #14397D;
+	color: black;
+	max-width: 500px;
+	align-items: center;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+
+
+/* - - - - - - - - Input styling - - - - - - - - */
+
+input[type="text"],
 input[type="search"],
 input[type="radio"],
-input[type="number"] {
+input[type="number"],
+input[type="file"] {
   color: black;
   padding: 5px;
-  border: solid 1px #dcdcdc;
+  border: solid 2px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
+  margin: 30px auto auto 40px;
+}
+
+
+
+input[type="file"] {
+  color: white;
+  padding: 20px;
+  border: solid 2px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  margin: auto;
+  display: block; 
 }
 
 input[type="text"]:focus,
@@ -347,7 +520,9 @@ input[type="search"].focus,
 input[type="radio"]:focus,
 input[type="radio"].focus,
 input[type="number"]:focus,
-input[type="number"].focus {
+input[type="number"].focus,
+input[type="file"]:focus,
+input[type="file"].focus {
   color: black;
   border: solid 1px white;
   box-shadow: 0 0 5px 1px #969696;
@@ -359,6 +534,7 @@ input[type="number"].focus {
 
 .container label {
   position: relative;
+  margin-left: 40px;
 }
 
 .container span::before,
@@ -397,6 +573,7 @@ input[type="radio"]:checked + label span.radio::after {
 
 textarea {
   resize: none;
+  color: black;
 }
 
 .btn-style{
@@ -430,12 +607,106 @@ textarea {
    border-radius: 9px 9px 9px 9px;
    box-shadow: 1px 1px 11px #011627;
    background: #2EC4B6 no-repeat scroll 319px center;
+   margin: 40px;
 }
 
 /* To hide checkboxes and radioboxes */
 .section input[type="radio"],
 .section input[type="checkbox"]{
   display: none;
+}
+
+/* Post container numbers */
+.number {
+    background: white;
+    color:black;
+    height: 60;
+    width: 60px;
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 4px;
+    line-height: 60px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 30px 30px 30px 3px;
+	margin-top: 20px;
+	margin-left:-1em;
+	margin-right: 1em;
+}
+
+/* - - - - - - - Check box styling - - - - - - - - */
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 3px; left: 4px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+}
+
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+}
+
+label:hover:before {
+  border: 1px solid #4778d9;
 }
 
 /* - - - - - - - Text Area Styling - - - - - - - */
